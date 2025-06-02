@@ -16,4 +16,16 @@ class CalculatorTest {
         Calculator calc = new Calculator();
         assertEquals(6, calc.multiply(2, 3));
     }
+
+    @Test
+    void testSubtraction() {
+        Calculator calc = new Calculator();
+        assertEquals(2, calc.subtract(5, 3));
+    }
+
+    @Test
+    void testDivision() {
+        Calculator calc = new Calculator();
+        assertEquals(4, calc.divide(8, 2));
+    }
 }
